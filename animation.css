@@ -1,0 +1,75 @@
+@keyframes fade-In-drop-Animation {
+  from {
+    transform: translateY(-1rem);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.animatio {
+  animation-name: fade-In-drop-Animation;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-timing-function: ease-out;
+}
+
+@keyframes main-Animation {
+  from {
+    transform: translateX(10rem);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.main-animatio {
+  animation-name: main-Animation;
+  animation-duration: 1.5s;
+  animation-fill-mode: both;
+  animation-timing-function: ease-out;
+}
+
+
+@keyframes main-Animation-reversed {
+  from {
+    transform: translateX(-10rem);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.main-animatio-reversed {
+  animation-name: main-Animation-reversed;
+  animation-duration: 1.5s;
+  animation-fill-mode: both;
+  animation-timing-function: ease-out;
+}
+
+@keyframes wave-Animation {
+  0% {
+    transform: translateY();
+  }
+
+  100% {
+    transform: translateY(-4px);
+  }
+}
+
+.wave-animatio {
+  animation-name: wave-Animation;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-fill-mode: both;
+}

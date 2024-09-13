@@ -1,0 +1,88 @@
+@media (max-width: 750px) {
+  body {
+    background-image: url(./images/bg-mobile.svg);
+    background-size: contain;
+    background-position: top;
+    height: fit-content;
+  }
+
+  header {
+    padding-inline: 2rem;
+  }
+
+  main {
+    grid-template-columns: repeat(auto-fit, minmax(315px, 1fr));
+    padding-inline: 2rem;
+    margin-block-start: 2rem;
+    padding-block-end: 3rem;
+  }
+
+  .text-area {
+    padding-inline-start: 0;
+    padding-block-start: 4rem;
+    display: grid;
+    justify-items: center;
+
+    & h1,
+    p {
+      text-align: center;
+    }
+
+    & p {
+      margin-block-end: 2.2rem;
+    }
+
+    & button {
+      padding: 0.8rem 6.5rem;
+      box-shadow: 0rem 0.2rem 0.5rem hsla(0, 0%, 0%, 35%);
+    }
+  }
+
+  footer {
+    flex-direction: column-reverse;
+    justify-content: center;
+    padding-inline: 2rem;
+    gap: 3rem;
+
+    & p {
+      margin-left: 0;
+      text-align: center;
+    }
+
+    .social-links {
+      margin-left: 0;
+    }
+  }
+}
+
+
+
+
+@media (max-width: 430px) {
+  main {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    padding-inline: 1rem;
+  }
+
+  .theme-switcher {
+    padding: 0.3rem 0.8rem;
+  }
+
+  .text-area button {
+    padding: 0.9rem 5rem;
+  }
+}
+
+
+
+
+@media (max-width: 380px) {
+  .text-area button {
+    padding: 0.7rem 4rem;
+  }
+
+  footer p {
+    font-size: 0.8rem;
+  }
+
+}
