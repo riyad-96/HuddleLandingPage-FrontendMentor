@@ -10,7 +10,7 @@
   }
 }
 
-.animatio {
+.animation {
   animation-name: fade-In-drop-Animation;
   animation-duration: 1s;
   animation-fill-mode: both;
@@ -29,7 +29,7 @@
   }
 }
 
-.main-animatio {
+.main-animation {
   animation-name: main-Animation;
   animation-duration: 1.5s;
   animation-fill-mode: both;
@@ -49,7 +49,7 @@
   }
 }
 
-.main-animatio-reversed {
+.main-animation-reversed {
   animation-name: main-Animation-reversed;
   animation-duration: 1.5s;
   animation-fill-mode: both;
@@ -66,7 +66,7 @@
   }
 }
 
-.wave-animatio {
+.wave-animation {
   animation-name: wave-Animation;
   animation-duration: 1s;
   animation-iteration-count: infinite;
